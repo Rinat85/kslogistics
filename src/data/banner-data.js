@@ -1,11 +1,11 @@
 //home img
-import slider_img_1 from "@assets/img/slider/slider-5.jpg";
+import slider_img_1 from "@assets/img/slider/slider-5.png";
 import slider_img_2 from "@assets/img/slider/slider.png";
-import slider_img_3 from "@assets/img/slider/slider-4.jpg";
+import slider_img_3 from "@assets/img/slider/slider-4.png";
 //home-two img
 import slider_one from "@assets/img/slider/slider.png";
 import slider_two from "@assets/img/slider/slider-3.png";
-import slider_there from "@assets/img/slider/slider-5.jpg";
+import slider_there from "@assets/img/slider/slider-5.png";
 
 const bannerData = [
   //home data

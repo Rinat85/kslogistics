@@ -19,10 +19,10 @@ const index = () => {
             <TeamAreaSection />
             <BrandAreaSection />
             <AboutUs />
-            <GalleryAreaSection />
+            {/* <GalleryAreaSection /> */}
             <FunfactArea />
-            <AccordionArea />
-            <BlogAreaSection />
+            {/* <AccordionArea /> */}
+            {/* <BlogAreaSection /> */}
              
         </main>
     );

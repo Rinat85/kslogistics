@@ -43,21 +43,21 @@ const HeaderOne = ({ headerClass }) => {
                 </div>
               </div>
               <div className="col-xl-7 d-none d-xl-block">
-                <div className="main-menu main-menu-2 t-right">
+                <div className="main-menu main-menu-2">
                   <nav id="mobile-menu">
                     <Menus />
                   </nav>
                 </div>
                 <div className="header__two-btn t-right d-block d-lg-none text-end">
                   <Link href="/contact" className="fill-btn clip-btn">
-                    get estimation
+                    contact us
                   </Link>
                 </div>
               </div>
               <div className="col-xl-3 col-6">
                 <div className="header__two-btn lh-1 t-right d-none d-xl-block">
                   <Link href="/contact" className="fill-btn clip-btn">
-                    get estimation
+                    contact us
                   </Link>
                 </div>
                 <div className="text-end d-xl-none d-block">

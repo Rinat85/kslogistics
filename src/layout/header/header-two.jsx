@@ -50,7 +50,7 @@ const HeaderTwo = () => {
                   </div>
                   <div className="col-xxl-2 col-xl-3 col-lg-3 col-sm-3">
                      <div className="header__top-3-btn t-right">
-                        <Link href="/contact" className="fill-btn fill-lg-btn clip-md-btn">get estimation</Link>
+                        <Link href="/contact" className="fill-btn fill-lg-btn clip-md-btn">contact us</Link>
                      </div>
                   </div>
                </div>
@@ -82,7 +82,7 @@ const HeaderTwo = () => {
                      <div className="header__bottom-3-wrapper">
                         <div className="header__bottom-3-info">
                            <div className="header__bottom-3-item">
-                              <div className="header__bottom-3-icon mr-10">
+                              <div className="mr-10 header__bottom-3-icon">
                                  <i className="flaticon-telephone-call"></i>
                               </div>
                               <div className="header__bottom-3-text">
@@ -90,7 +90,7 @@ const HeaderTwo = () => {
                               </div>
                            </div>
                            <div className="header__bottom-3-item">
-                              <div className="header__bottom-3-icon mr-10">
+                              <div className="mr-10 header__bottom-3-icon">
                                  <i className="flaticon-envelope"></i>
                               </div>
                               <div className="header__bottom-3-text">

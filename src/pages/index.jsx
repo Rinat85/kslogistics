@@ -9,7 +9,7 @@ import FooterOne from "@layout/footer/footer-1";
 export default function Home() {
   return (
     <Wrapper>
-      <SEO pageTitle={'Delport'} />
+      <SEO pageTitle={'KC’S LOGISTICS LLC'} />
       <HeaderOne headerClass="header__two header__two-space header__transparent menu-sticky" />
       <HomeMain />
       <FooterOne />

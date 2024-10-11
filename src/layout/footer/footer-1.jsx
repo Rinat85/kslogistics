@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import bg_1 from '@assets/img/cta/call-cat-bg-1.png';
+import bg_1 from '@assets/img/cta/call-cta-bg-1.png';
 import bg_2 from '@assets/img/cta/call-cta-bg-2.png';
 
 const FooterOne = () => {
@@ -10,16 +10,16 @@ const FooterOne = () => {
             id: 1,
             title: 'Call us now',
             img: bg_1,
-            contact: 'tel:32622266600',
-            call_num: '326 222 666 00',
+            contact: 'tel:4842507222',
+            call_num: '484-250-7222',
             icon: 'flaticon-telephone-call',
         },
         {
             id: 2,
-            title: 'Call us now',
+            title: 'E-mail us',
             img: bg_2,
-            contact: 'info@webmail.com',
-            call_num: 'info@webmail.com',
+            contact: 'mailto:hr@kcslogisticsllc.com',
+            call_num: 'hr@kcslogisticsllc.com',
             icon: 'flaticon-envelope',
         },
     ]
@@ -58,12 +58,9 @@ const FooterOne = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                             <div className="footer-widget footer2-widget footer2-widget1 mb-50 pr-20">
                                 <div className="footer-widget-title">
-                                    <h4>about us</h4>
+                                    <h4>Company Address</h4>
                                 </div>
-                                <p>A farm is a plot of land that is used to
-                                    grow crops and raise livestock, as in
-                                    our farm, we raise sheep and sell their
-                                    wool the word farm is also.
+                                <p>2002 Devereaux Ave, Philadelphia, PA 19149
                                 </p>
                                 <div className="footer-social-link mt-40">
                                     <ul>
@@ -82,17 +79,17 @@ const FooterOne = () => {
                                 </div>
                                 <div className="footer-widget-link">
                                     <ul>
-                                        <li><Link href="/about-us">About Us</Link></li>
-                                        <li><Link href="/services">Services</Link></li>
-                                        <li><Link href="/team">Our Team</Link></li>
-                                        <li><Link href="/pricing">Pricing</Link></li>
-                                        <li><Link href="/faq">FAQ &amp; Ans</Link></li>
+                                        <li><Link href="/">About Us</Link></li>
+                                        <li><Link href="/">Services</Link></li>
+                                        <li><Link href="/">Our Team</Link></li>
+                                        <li><Link href="/">Pricing</Link></li>
+                                        <li><Link href="/">FAQ &amp; Ans</Link></li>
                                     </ul>
                                     <ul>
-                                        <li><Link href="/career">Careers</Link></li>
-                                        <li><Link href="/blog">News &amp; Insights</Link></li>
-                                        <li><Link href="/faq">Refund Policy</Link></li>
-                                        <li><Link href="#">Terms &amp; Conditions</Link></li>
+                                        <li><Link href="/">Careers</Link></li>
+                                        <li><Link href="/">News &amp; Insights</Link></li>
+                                        <li><Link href="/">Refund Policy</Link></li>
+                                        <li><Link href="/">Terms &amp; Conditions</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -106,8 +103,8 @@ const FooterOne = () => {
                                     <li><i className="fas fa-truck"></i><Link href="/services">Car Transport</Link></li>
                                     <li><i className="fas fa-cogs"></i><Link href="/services">Refund Product</Link></li>
                                     <li><i className="fas fa-box"></i><Link href="/services">Car Transport</Link></li>
-                                    <li><i className="fas fa-plane"></i><Link href="/services">Air Frieght</Link></li>
-                                    <li><i className="fas fa-ship"></i><Link href="/services">Ship Frieght</Link></li>
+                                    {/* <li><i className="fas fa-plane"></i><Link href="/services">Air Frieght</Link></li> */}
+                                    {/* <li><i className="fas fa-ship"></i><Link href="/services">Ship Frieght</Link></li> */}
                                     <li><i className="fas fa-home"></i><Link href="/services">Home Delivery</Link></li>
                                 </ul>
                             </div>
@@ -138,16 +135,16 @@ const FooterOne = () => {
                                 <div className="footer-menu mb-15">
                                     <nav>
                                         <ul>
-                                            <li><Link href="/faq">terms & conditions</Link></li>
-                                            <li><Link href="/faq">FAQ</Link></li>
-                                            <li><Link href="/career">careers</Link></li>
+                                            <li><Link href="/">terms & conditions</Link></li>
+                                            <li><Link href="/">FAQ</Link></li>
+                                            <li><Link href="/">careers</Link></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div className="col-xxl-5 col-lg-7">
                                 <div className="copy-right-text-2 mb-15">
-                                    <p>Copyright & design by <Link href="https://themeforest.net/user/bdevs/portfolio?gclid=EAIaIQobChMIhYCnudmz_wIVWRxyCh2NoQvLEAAYASAAEgJTaPD_BwE">@bdevs</Link> - 2022</p>
+                                    <p>Copyright & design by <Link href="https://iteam.uz/">iTeam</Link> - 2024</p>
                                 </div>
                             </div>
                         </div>

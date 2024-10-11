@@ -62,6 +62,7 @@ $flaticon-map: (
     "trophy": "\f127",
     "bicycle": "\f128",
     "box-1": "\f129",
+    "guard": "\f12a",
 );
 
 .flaticon-facebook:before {
@@ -186,4 +187,7 @@ $flaticon-map: (
 }
 .flaticon-box-1:before {
     content: map-get($flaticon-map, "box-1");
+}
+.flaticon-guard:before {
+    content: map-get($flaticon-map, "guard");
 }

@@ -18,8 +18,8 @@ const ServicesArea = () => {
                         <div className="col-lg-3 col-md-4">
                             <div className="services__section">
                                 <div className="section__title mb-95">
-                                    <span className="sub-title">services</span>
-                                    <h2 className="title">what we do</h2>
+                                    <span className="sub-title">ABOUT</span>
+                                    <h2 className="title">KC’S LOGISTICS LLC</h2>
                                 </div>
                                 <div className="services-two-nav">
                                     <div className="services-button-prev"><i className="fas fa-long-arrow-left"></i></div>
@@ -68,7 +68,7 @@ const ServicesArea = () => {
                                                 services_data.slice(0, 6).map((item) => (
                                                     <SwiperSlide key={item.id}>
                                                         <div className="swiper-slide">
-                                                            <div className="services__item text-center">
+                                                            <div className="text-center services__item">
                                                                 <div className="services__item-icon mb-35">
                                                                     <i className={item.icon}></i>
                                                                 </div>
@@ -76,7 +76,7 @@ const ServicesArea = () => {
                                                                     <Link href={`/services-details/${item.id}`}>
                                                                         <h3>{item.title}</h3>
                                                                     </Link>
-                                                                    <p>{item.description.slice(0, 63)}</p>
+                                                                    <p>{item.description}</p>
                                                                 </div>
                                                                 <div className="services__item-shape">
                                                                 </div>

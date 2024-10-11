@@ -141,3 +141,6 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-box-1:before {
     content: "\f129";
 }
+.flaticon-guard:before {
+    content: "\f11d";
+}

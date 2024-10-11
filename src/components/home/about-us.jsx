@@ -22,9 +22,9 @@ const AboutUs = () => {
                                 <div className="about__content-tab-2 mt-40">
                                     <ul className="nav mb-5" id="myTab" role="tablist">
                                         <li className="nav-item" role="presentation">
-                                            <button className="nav-link active clip-lg-btn" id="approch-tab" data-bs-toggle="tab"
-                                                data-bs-target="#approch" type="button" role="tab" aria-controls="approch"
-                                                aria-selected="true">our approch</button>
+                                            <button className="nav-link active clip-lg-btn" id="approach-tab" data-bs-toggle="tab"
+                                                data-bs-target="#approach" type="button" role="tab" aria-controls="approach"
+                                                aria-selected="true">our approach</button>
                                         </li>
                                         <li className="nav-item" role="presentation">
                                             <button className="nav-link clip-lg-btn" id="goal-tab" data-bs-toggle="tab"
@@ -38,28 +38,23 @@ const AboutUs = () => {
                                         </li>
                                     </ul>
                                     <div className="tab-content" id="myTabContent">
-                                        <div className="tab-pane fade show active" id="approch" role="tabpanel" aria-labelledby="approch-tab">
-                                            <p>From finance, retail, and travel, to social media, cybersecurity, adtech,
-                                                and more, market leaders are leveraging web data to maintain their transt
-                                                advantage. Discover how it can work for you.
+                                        <div className="tab-pane fade show active" id="approach" role="tabpanel" aria-labelledby="approach-tab">
+                                            <p>Based in Philadelphia, Pennsylvania, KC’S LOGISTICS LLC revolutionized the transportation industry by offering the first and only interactive online platform that connects an ever-growing network of semi-trailers. These trailers are available for FMCSA carriers, truck dealers, drayage, towing, and construction companies to utilize for one-way moves. Our platform provides an easy-to-use, fast, and effective process that gives truck operators real-time information, empowering them to make the best decisions to maximize asset utilization.
                                             </p>
                                             <div className="about__content-tab-btn mt-35">
-                                                <Link className="fill-btn clip-md-btn" href="/about-us">learn more</Link>
+                                                <Link className="fill-btn clip-md-btn" href="/">learn more</Link>
                                             </div>
                                         </div>
                                         <div className="tab-pane fade" id="goal" role="tabpanel" aria-labelledby="goal-tab">
-                                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                                suffered alteration in some form, by injected humour, or randomised words which {`don't`}
-                                                look even slightly believable.</p>
+                                            <p>At KC’S LOGISTICS LLC, our goal is to simplify and optimize trailer logistics for both operators and owners. We aim to ensure that truck operators can quickly access the tools and information needed to improve efficiency, while trailer owners, manufacturers, and other industry players can seamlessly post their available trailers to reach a large network of qualified operators</p>
                                             <div className="about__content-tab-btn mt-35">
-                                                <Link className="fill-btn clip-md-btn" href="/about-us">learn more</Link>
+                                                <Link className="fill-btn clip-md-btn" href="/">learn more</Link>
                                             </div>
                                         </div>
                                         <div className="tab-pane fade" id="mision" role="tabpanel" aria-labelledby="mision-tab">
-                                            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                                                Ipsum passages, and more recently with desktop publishing software like Aldus.</p>
+                                            <p>Our mission is to create an efficient and comprehensive process for trailer owners—whether they are manufacturers, dealers, motor carriers, railroads, leasing companies, or government agencies—to have their trailers delivered or repositioned as needed. By providing a platform where trailer availability can be advertised to thousands of operators, we help ensure that trailers reach their destination when and where they are required.</p>
                                             <div className="about__content-tab-btn mt-35">
-                                                <Link className="fill-btn clip-md-btn" href="/about-us">learn more</Link>
+                                                <Link className="fill-btn clip-md-btn" href="/">learn more</Link>
                                             </div>
                                         </div>
                                     </div>
