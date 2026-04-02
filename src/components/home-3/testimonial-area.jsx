@@ -29,7 +29,7 @@ const TestimonialArea = () => {
                                 slidesPerView={3}
                                 spaceBetween={32}
                                 centeredSlides={true}
-                                loop={true}
+                                loop={false}
                                 // Responsive breakpoints
                                 breakpoints={{
                                     1400: {

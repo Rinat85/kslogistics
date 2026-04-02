@@ -2,7 +2,7 @@ import React from 'react';
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation, Pagination } from 'swiper';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/bundle';
 import product_data from '@data/product-data';
 import Link from 'next/link';
@@ -20,7 +20,7 @@ const Products = () => {
                 <Swiper
                     spaceBetween={30}
                     slideToClickedSlide={true}
-                    loop={true}
+                    loop={false}
                     autoplay={{
                         delay: 3000,
                     }}

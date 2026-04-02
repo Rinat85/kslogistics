@@ -5,7 +5,7 @@ import banner_overlay from '@assets/img/services/services-bg.png'
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 const ServicesArea = () => {
@@ -35,7 +35,7 @@ const ServicesArea = () => {
                                             modules={[Navigation]}
                                             slidesPerView={4}
                                             spaceBetween={20}
-                                            loop={true}
+                                            loop={false}
                                             navigation={{
                                                 nextEl: ".services-button-next",
                                                 prevEl: ".services-button-prev",

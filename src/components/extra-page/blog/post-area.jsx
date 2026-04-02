@@ -8,7 +8,7 @@ import 'react-modal-video/css/modal-video.min.css';
 
 // swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper';
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css/bundle';
 import Pagination_Data from '@components/common/pagination';
 
@@ -27,7 +27,7 @@ const PostArea = () => {
                                         <div>
                                             <Swiper
                                                 modules={[Autoplay, Navigation]}
-                                                loop={true}
+                                                loop={false}
                                                 slidesPerView={1}
                                                 spaceBetween={0}
                                                 autoplay={{

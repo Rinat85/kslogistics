@@ -4,7 +4,7 @@ import bannerData from '@data/banner-data';
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, EffectFade, Autoplay, A11y } from 'swiper';
+import { Navigation, Pagination, EffectFade, Autoplay, A11y } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 const HomeTwoBanner = () => {
@@ -21,7 +21,7 @@ const HomeTwoBanner = () => {
                             el: ".swiper-paginations"
                         }}
                         paginationclickable={true.toString()}
-                        loop={true}
+                        loop={false}
                         effect={"fade"}
                         autoplay={{
                             delay: 2500,

@@ -4,7 +4,7 @@ import PortfolioData from '@data/portfolio-data';
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper';
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 
@@ -29,7 +29,7 @@ const PortfolioSection = () => {
                             <Swiper
                                 modules={[Autoplay, Navigation]}
                                 spaceBetween={15}
-                                loop={true}
+                                loop={false}
                                 autoplay={{
                                     delay: 3000,
                                     pauseOnMouseEnter: true,

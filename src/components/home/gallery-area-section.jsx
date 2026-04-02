@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 const GalleryAreaSection = () => {
@@ -33,7 +33,7 @@ const GalleryAreaSection = () => {
                         modules={[Navigation, Pagination, Scrollbar, Autoplay]}
                         slidesPerView={1}
                         spaceBetween={30}
-                        loop={true}
+                        loop={false}
                         infinite="false"
                         centeredSlides={true}
                         autoplay={{

@@ -7,7 +7,7 @@ import img_4 from '@assets/img/portfolio/pr-img4.jpg';
 //swiper
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Pagination } from 'swiper';
+import SwiperCore, { Pagination } from 'swiper/modules';
 import Image from 'next/image';
 SwiperCore.use([Pagination]);
 
@@ -39,7 +39,7 @@ const PortFolioBox = () => {
                         modules={[Pagination]}
                         slidesPerView={2}
                         spaceBetween={20}
-                        loop={true}
+                        loop={false}
                         pagination={{
                             el: ".portfolio-slider-pagination",
                             clickable: true,

@@ -5,7 +5,7 @@ import brandData from '@data/brand-data';
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 const BrandArea = () => {
@@ -18,7 +18,7 @@ const BrandArea = () => {
                             modules={[Autoplay]}
                             slidesPerView={1}
                             spaceBetween={30}
-                            loop={true}
+                            loop={false}
                             centeredSlides={false}
                             autoplay={{
                                 delay: 3000,

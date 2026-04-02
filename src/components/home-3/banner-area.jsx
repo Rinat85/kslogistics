@@ -4,7 +4,7 @@ import bannerData from '@data/banner-data';
 
 //swiper style
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper';
+import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css/bundle';
 
 const BannerArea = () => {
@@ -19,7 +19,7 @@ const BannerArea = () => {
                         pagination={{
                             clickable: true,
                         }}
-                        loop={true}
+                        loop={false}
                         effect={"fade"}
                         autoplay={{
                             delay: 5000,

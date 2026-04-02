@@ -317,7 +317,7 @@
 		@media #{$md,$sm,$xs} {
 			width: auto;
 		}
-		&::hover{
+		&:hover{
 			background: var(--clr-common-color-red);
 			color: var(--clr-common-white);
 			border-color: var(--clr-common-color-red);
