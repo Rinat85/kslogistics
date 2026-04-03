@@ -7,9 +7,8 @@ import img_4 from '@assets/img/portfolio/pr-img4.jpg';
 //swiper
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import Image from 'next/image';
-SwiperCore.use([Pagination]);
 
 
 const PortFolioBox = () => {
